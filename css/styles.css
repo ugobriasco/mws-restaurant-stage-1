@@ -121,7 +121,7 @@ nav h1 a {
 
 /* Add a color on mouse-over */
 #breadcrumb li a:hover {
-  color: #252831;
+  color: white;
   text-decoration: underline;
 }
 /* ====================== Home Map ====================== */
