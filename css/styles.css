@@ -82,13 +82,14 @@ section {
 }
 /* ====================== Navigation ====================== */
 nav {
-  height: 80px;
-  background-color: #252831;
-  text-align: center;
-  width: 100%;
 }
 nav h1 {
+  background-color: #252831;
+  margin: 0;
   padding-top: 23px;
+  height: 60px;
+  text-align: center;
+  width: 100%;
 }
 nav h1 a {
   color: #f58500;
