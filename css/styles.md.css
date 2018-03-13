@@ -1,16 +1,4 @@
 @media screen and (min-width: 600px) and (max-width: 1150px) {
-  .filter-options {
-    flex-direction: row;
-    padding-left: 1%;
-    padding-right: 1%;
-    width: 98%;
-  }
-
-  .filter-options select {
-    display: flex;
-    flex-grow: 1;
-  }
-
   #restaurants-list {
     padding-left: 10px;
     padding-right: 10px;
@@ -30,9 +18,21 @@
 @media screen and (min-width: 600px) {
   .filter-options {
     flex-direction: row;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: calc(100% - 20px);
+    flex-wrap: wrap;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 98%;
+  }
+  /* .filter-options h2 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+  } */
+
+  .filter-options select {
+    margin: 0px 10px 0px 10px;
+    padding: 0;
+    width: calc((100% - 40px) / 2);
   }
 
   .inside #maincontent {
