@@ -80,23 +80,34 @@ section {
   text-align: center;
   text-transform: uppercase;
 }
-/* ====================== Navigation ====================== */
-nav {
+/* ====================== Header ====================== */
+header h1 {
+  padding-top: 23px;
 }
-nav h1 {
+header h1 {
   background-color: #252831;
   margin: 0;
-  padding-top: 23px;
   height: 60px;
   text-align: center;
   width: 100%;
 }
-nav h1 a {
+header h1 a {
   color: #f58500;
   font-size: 14pt;
   font-weight: 200;
   letter-spacing: 10px;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 400px) {
+  header h1 {
+    padding-bottom: 30px;
+    padding-top: 10px;
+  }
+}
+
+/* ====================== Navigation ====================== */
+nav {
 }
 #breadcrumb {
   background-color: #252831;
@@ -125,6 +136,11 @@ nav h1 a {
   color: white;
   text-decoration: underline;
 }
+
+#breadcrumb li .current-page {
+  color: white;
+}
+
 /* ====================== Home Map ====================== */
 #map {
   background-color: #ccc;
@@ -367,10 +383,4 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
-}
-
-@media screen and (max-width: 400px) {
-  nav h1 {
-    padding-top: 10px;
-  }
 }
