@@ -147,9 +147,17 @@ createReviewHTML = review => {
  */
 fillBreadcrumb = (restaurant = self.restaurant) => {
   const breadcrumb = document.getElementById("breadcrumb");
+
   const li = document.createElement("li");
-  li.innerHTML = restaurant.name;
+
+  const a = document.createElement("a");
+  a.setAttribute("href", "#");
+  a.setAttribute("aria", "page");
+  a.setAttribute("class", "current-page");
+  a.innerHTML = restaurant.name;
+
   breadcrumb.appendChild(li);
+  li.appendChild(a);
 };
 
 /**
