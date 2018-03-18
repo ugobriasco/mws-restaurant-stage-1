@@ -236,7 +236,7 @@ nav {
   z-index: 1;
 }
 
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   background-color: #f3f3f3;
   color: #252831;
   font-size: 1.2rem;

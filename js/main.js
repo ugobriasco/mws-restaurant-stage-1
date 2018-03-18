@@ -147,7 +147,7 @@ createRestaurantHTML = restaurant => {
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
   image.alt = DBHelper.getImageAlt(restaurant);
 
-  const name = document.createElement("h1");
+  const name = document.createElement("h2");
   name.innerHTML = restaurant.name;
 
   const neighborhood = document.createElement("p");
