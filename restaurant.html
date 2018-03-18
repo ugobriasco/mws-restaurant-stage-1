@@ -25,14 +25,15 @@
   </nav>
   <main id="maincontent">
     <section id="map-container" role="application">
+      <a href='#restaurant-container' class='skip-link' aria-label="Skip map to restaurant description"></a>
       <div id="map" aria-hidden="true" ></div>
     </section>
     <section id="restaurant-container">
-      <h2 id="restaurant-name"></h2>
+      <h2 id="restaurant-name" tabindex="0"></h2>
       <img id="restaurant-img">
       <p id="restaurant-cuisine"></p>
-      <p id="restaurant-address"></p>
-      <table id="restaurant-hours"></table>
+      <p id="restaurant-address" tabindex="0"></p>
+      <table id="restaurant-hours" tabindex="0"></table>
     </section>
     <section id="reviews-container">
       <ul id="reviews-list"></ul>
